@@ -1,0 +1,42 @@
+
+body {
+	background-image: url("../img/pokedex1.gif");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: 20px 20px; 
+}
+
+	
+#foto {
+	position:absolute;
+	top:173px;
+	left: 77px;
+}
+
+#img {
+	height: 169px;
+	width: 255px;
+	
+}
+
+#selectuserdiv {
+	position:absolute;
+	top: 496px ;
+	left: 110px;
+}
+
+#selectfilediv {
+	position:absolute;
+	top: 471px ;
+	left: 110px;
+}
+
+	
+#info {
+	height: 108px;
+	width: 253px;
+	overflow:auto;
+	position:absolute;
+	top: 185px;
+	left: 470px;
+}

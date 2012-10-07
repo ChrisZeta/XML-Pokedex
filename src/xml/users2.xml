@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<identify xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	
+	<profile>
+		<nome>Mario</nome>
+		<cognome>Rossi</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/6.png</foto>
+		<codicefiscale>IIIIIIIIIIIIIIII</codicefiscale>
+		<data>06/10/95</data>
+		<occhi>Azzurri</occhi>
+		<capelli>Castani</capelli>
+		<bio>euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu euuu </bio>
+	</profile>
+	<profile>
+		<nome>Antonio</nome>
+		<cognome>Cristo</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/7.png</foto>
+		<codicefiscale>HHHHHHHHHHHHHHHH</codicefiscale>
+		<data>18/06/87</data>
+		<occhi>Marroni</occhi>
+		<capelli>Castani</capelli>
+		<bio>hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt hyt </bio>
+	</profile>
+	<profile>
+		<nome>Franco</nome>
+		<cognome>Sei</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/8.png</foto>
+		<codicefiscale>GGGGGGGGGGGGGGGG</codicefiscale>
+		<data>11/11/88</data>
+		<occhi>Grigi</occhi>
+		<capelli>Neri</capelli>
+		<bio>uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr uwerr </bio>
+	</profile>
+	<profile>
+		<nome>Titto</nome>
+		<cognome>Menodue</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/9.png</foto>
+		<codicefiscale>LLLLLLLLLLLLLLLL</codicefiscale>
+		<data>14/12/92</data>
+		<occhi>Rossi</occhi>
+		<capelli>Biondi</capelli>
+		<bio>aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop aop </bio>
+	</profile>
+</identify>

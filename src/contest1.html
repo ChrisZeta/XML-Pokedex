@@ -1,0 +1,124 @@
+<!-- 
+ XML Pokedex
+   Copyright (C) 2012        Christian Zucchelli
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+-->
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XML Pokedex</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" href="css/my.css" />
+</head>
+<body>
+
+<div id="info">
+<div id="nome">Nome: </div>
+<div id="cognome">Cognome: </div>
+
+<div id="codicefiscale">Codice Fiscale: </div>
+<div id="data">Data di nascita: </div>
+<div id="occhi">Occhi: </div>
+<div id="capelli">Capelli: </div>
+<div id="bio">Bio: </div>
+</div>
+<div id="selectuserdiv">
+<select id="selectuser"></select>
+</div>
+<div id="selectfilediv">
+<select id="selectfile">
+<option value="xml/users1.xml">File 1</option>
+<option value="xml/users2.xml">File 2</option>
+<option value="xml/users3.xml">File 3</option></select>
+</div>
+<div id="foto"></div>
+
+
+
+
+
+<script>
+var xmlToParse
+
+function display(){
+$(document).ready(function(){
+	var xmlToParse = $("#selectfile").val();
+	
+
+  $.ajax({
+    type: "GET",
+    url: xmlToParse,
+    dataType: "xml",
+    success: function(xml){
+	      var select = $('#selectuser');
+	      var selecthtml = "<option>Select user</option>";
+                  $(xml).find("profile").each(function(){
+                  
+                  var nome = $(this).find('nome').text();
+                  var cognome = $(this).find('cognome').text();
+                  var foto = $(this).find('foto').text();
+                  var codicefiscale = $(this).find('codicefiscale').text();
+                  var data = $(this).find('data').text();
+                  var occhi = $(this).find('occhi').text();
+                  var capelli = $(this).find('capelli').text();
+                  var bio = $(this).find('bio').text();
+                  
+                  var selectvalue = $("#selectuser").val();
+
+                  selecthtml = selecthtml + "<option value='"+nome+cognome+"'>"+nome+" "+cognome+"</option>";
+                  
+                  if (nome+cognome==selectvalue){
+                       
+                        $("#nome").html("Nome: "+nome + "<br />");
+                        $("#cognome").html("Cognome: "+cognome + "<br />");
+                        $("#foto").html("<img id='img' src=" + foto + "><br />");
+                        $("#codicefiscale").html("Codice fiscale:<br /> "+codicefiscale + "<br />");
+                        $("#data").html("Data di nascita: "+data + "<br />");
+                        $("#occhi").html("Occhi: "+occhi + "<br />");
+                        $("#capelli").html("Capelli: "+capelli + "<br />");
+                        $("#bio").html("Bio:<br /> "+bio + "<br />");}
+
+                  
+                  
+               
+                  });
+                  
+                  select.html(selecthtml);
+               }
+  });
+});
+}
+
+
+	
+
+
+
+
+
+    
+$("select").change(display);
+    display();
+
+
+
+</script>
+
+</body>
+</html>
