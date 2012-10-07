@@ -4,14 +4,18 @@ Parser XML realizzato utilizzando HTML, CSS e jQuery
 
 ##Requisiti
 
-* L'unico requistito di XML Pokedex é un browser web :D
+* L'unico requistito per XML Pokedex é un browser web :D
 
+## Demo
 
-### Compilazione
-    $ COMANDO_PER_COMPILARE
+Potete trovare una demo di XML Pokedex qui: http://zeta-zone.org/developercontest/1
 
-#### Disinstallazione
-    $ COMANDO_PER_DISINSTALLARE
+## Bugs
+
+Ho trovato un bug, dove posso segnalarlo?
+
+Spiacenti, XML Pokedex non ha bug.
+Potreste peró incontrare 'comportamenti inaspettati' da segnalare a <thewebcha@gmail.com> =)
 
 
 
