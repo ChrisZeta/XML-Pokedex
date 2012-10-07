@@ -1,14 +1,10 @@
-#NOME_PROGETTO
+#XML Pokedex
 
-DESCRIZIONE_PROGETTO
+Parser XML realizzato utilizzando HTML, CSS e jQuery
 
 ##Requisiti
 
-* libreria1 o programma1 da installare
-* libreria2 o programma2 da installare
-* libreria3 o programma3 da installare
-* libreria4 o programma4 da installare
-* libreria5 o programma5 da installare
+* L'unico requistito di XML Pokedex é un browser web :D
 
 
 ### Compilazione
