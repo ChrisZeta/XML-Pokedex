@@ -34,9 +34,13 @@ body {
 	
 #info {
 	height: 108px;
-	width: 253px;
+	width: 252px;
 	overflow:auto;
 	position:absolute;
 	top: 185px;
 	left: 470px;
+}
+
+#selectuser {
+	width: 100px;
 }

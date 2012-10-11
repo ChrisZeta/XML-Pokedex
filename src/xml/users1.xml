@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <identify xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	
 	<profile>
-		<nome>Mario</nome>
-		<cognome>Ful</cognome>
-		<foto>http://developercontest.ptkdev.it/contest/1/1.png</foto>
-		<codicefiscale>AAAAAAAAAAAAAAAA</codicefiscale>
+		<nome>Patryk</nome>
+		<cognome>Rzucidlo</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/new/1.png</foto>
+		<codicefiscale>PTRRZU90Z127EIT</codicefiscale>
 		<data>12/03/90</data>
+		<occhi>Marroni</occhi>
+		<capelli>Castani</capelli>
+		<bio>Non so usare windows. Non mangio le mele. Lascio che i bit scorrano velocemente sul mio debian. Penso troppo, sono pazzo, sono semplicemente io. #DefollowMe</bio>
+	</profile>
+	<profile>
+		<nome>Lady</nome>
+		<cognome>Vaffa</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/new/4.jpg</foto>
+		<codicefiscale>LDYVAFF01Z127EIT</codicefiscale>
+		<data>01/01/2012</data>
 		<occhi>Neri</occhi>
-		<capelli>Biono</capelli>
-		<bio>Bu bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu  bu </bio>
+		<capelli>Neri</capelli>
+		<bio>Guardo con gli occhi dell'amore. ma ho deciso di restituirglieli.</bio>
 	</profile>
 	<profile>
-		<nome>Luca</nome>
-		<cognome>Etto</cognome>
-		<foto>http://developercontest.ptkdev.it/contest/1/2.png</foto>
-		<codicefiscale>BBBBBBBBBBBBBBBB</codicefiscale>
-		<data>02/09/87</data>
-		<occhi></occhi>
+		<nome>Viola</nome>
+		<cognome>LaViola</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/new/3.jpg</foto>
+		<codicefiscale>VLALLA01Z127EIT</codicefiscale>
+		<data>01/01/2012</data>
+		<occhi>Marroni</occhi>
 		<capelli>Castani</capelli>
-		<bio></bio>
-	</profile>
-	<profile>
-		<nome>Isa</nome>
-		<cognome>Tatta</cognome>
-		<foto>http://developercontest.ptkdev.it/contest/1/3.png</foto>
-		<codicefiscale>CCCCCCCCCCCCCCCC</codicefiscale>
-		<data>01/04/66</data>
-		<occhi>Verdi</occhi>
-		<capelli>Castani</capelli>
-		<bio>Xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt xt</bio>
+		<bio>Io avrei una vita molto impegnata. Qui si fa uso di turpiloquio. Esci quando vuoi.</bio>
 	</profile>
 	<profile>
 		<nome>Chiara</nome>
-		<cognome>Ecca</cognome>
-		<foto>http://developercontest.ptkdev.it/contest/1/4.png</foto>
-		<codicefiscale>EEEEEEEEEEEEEEEE</codicefiscale>
-		<data>25/08/76</data>
-		<occhi>Verdi</occhi>
-		<capelli>Biondi</capelli>
-		<bio>wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt wt</bio>
-	</profile>
-	<profile>
-		<nome>Eugenio</nome>
-		<cognome>Puppi</cognome>
-		<foto>http://developercontest.ptkdev.it/contest/1/5.png</foto>
-		<codicefiscale>WWWWWWWWWWWWWWWW</codicefiscale>
-		<data>07/12/88</data>
-		<occhi>Verdi</occhi>
-		<capelli>Biondi</capelli>
-		<bio>yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut yut </bio>
+		<cognome>Lyla</cognome>
+		<foto>http://developercontest.ptkdev.it/contest/1/new/2.jpg</foto>
+		<codicefiscale>CRALYL01Z127EIT</codicefiscale>
+		<data>01/01/2012</data>
+		<occhi>Marroni</occhi>
+		<capelli>Rossi</capelli>
+		<bio>#grammarnazi per vocazione, traduttrice per passione,commessa per necessità. Vivo per il britpop, il sushi, il make-up e @ptkdev</bio>
 	</profile>
 </identify>
