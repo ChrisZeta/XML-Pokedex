@@ -10,6 +10,8 @@ Parser XML realizzato utilizzando HTML, CSS e jQuery
 
 Potete trovare una demo di XML Pokedex qui: http://zeta-zone.org/developercontest/1
 
+Qui invece un video di presentazione: https://vimeo.com/51243080
+
 ## Bugs
 
 Ho trovato un bug, dove posso segnalarlo?
